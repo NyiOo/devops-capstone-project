@@ -59,10 +59,10 @@ def create_accounts():
 
 ######################################################################
 # LIST ALL ACCOUNTS
-######################################################################
+#####################################################################
 @app.route("/accounts", methods=["GET"])
 def list_products():
-   """
+    """
     List all Accounts
     This endpoint will list all Accounts
     """
